@@ -1,12 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 # Práctica 1: Flujo Ruta → Controlador → Vista en Laravel
 
 ## 📋 Descripción del Proyecto
@@ -133,16 +124,16 @@ Route::get('/saludo/{nombre}', [PaginaController::class, 'saludo']);
 ## 📸 Capturas de Pantalla
 
 ### Página de Inicio
-![Página de Inicio](https://via.placeholder.com/800x400?text=Página+de+Inicio)
+![Página de Inicio](./screenshots/01-inicio.png)
 
 ### Ruta Estática: /bienvenida
-![Ruta Bienvenida](https://via.placeholder.com/800x400?text=Ruta+Bienvenida)
+![Ruta Bienvenida](./screenshots/02-bienvenida.png)
 
 ### Ruta Dinámica: /saludo/Juan
-![Ruta Saludo Juan](https://via.placeholder.com/800x400?text=Ruta+Saludo+Juan)
+![Ruta Saludo Juan](./screenshots/03-saludo-juan.png)
 
 ### Ruta Dinámica: /saludo/María
-![Ruta Saludo María](https://via.placeholder.com/800x400?text=Ruta+Saludo+María)
+![Ruta Saludo María](./screenshots/04-saludo-maria.png)
 
 ---
 
