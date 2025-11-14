@@ -130,6 +130,22 @@ Route::get('/saludo/{nombre}', [PaginaController::class, 'saludo']);
 <h1>Hola, {{ $nombre }}</h1>
 ```
 
+## 📸 Capturas de Pantalla
+
+### Página de Inicio
+![Página de Inicio](https://via.placeholder.com/800x400?text=Página+de+Inicio)
+
+### Ruta Estática: /bienvenida
+![Ruta Bienvenida](https://via.placeholder.com/800x400?text=Ruta+Bienvenida)
+
+### Ruta Dinámica: /saludo/Juan
+![Ruta Saludo Juan](https://via.placeholder.com/800x400?text=Ruta+Saludo+Juan)
+
+### Ruta Dinámica: /saludo/María
+![Ruta Saludo María](https://via.placeholder.com/800x400?text=Ruta+Saludo+María)
+
+---
+
 ## 📚 Conceptos Aprendidos
 
 1. **Routing**: Definición de rutas GET con parámetros dinámicos
@@ -153,6 +169,7 @@ El archivo `.gitignore` está configurado para excluir:
 - Las vistas están en `resources/views/` con extensión `.blade.php`
 - Los controladores se ubican en `app/Http/Controllers/`
 - Las rutas se definen en `routes/web.php`
+- Para más información, consulta la [Documentación oficial de Laravel](https://laravel.com/docs)
 
 ## Learning Laravel
 
